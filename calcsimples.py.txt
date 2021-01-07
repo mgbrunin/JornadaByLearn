@@ -1,0 +1,20 @@
+primeiro_numero = int(input('Digite o primeiro número: '))
+segundo_numero = int(input('Digite o segundo número: '))
+
+soma = primeiro_numero + segundo_numero
+subtracao = primeiro_numero - segundo_numero
+divisao = primeiro_numero / segundo_numero
+multiplicacao = primeiro_numero * segundo_numero
+
+operacao = input('Qual operação matemática você deseja realizar? ')
+
+if operacao == 'soma':
+    print(soma)
+if operacao == 'subtracao':
+    print(subtracao)
+if operacao == 'divisao':
+    print(divisao)
+if operacao == 'multiplicacao':
+    print(multiplicacao)
+else:
+  print('Está não é uma operação valida')
